@@ -1,0 +1,14 @@
+
+# RabbitMQ Server properties
+spring.rabbitmq.host=ip
+spring.rabbitmq.port=port
+spring.rabbitmq.username=user
+spring.rabbitmq.password=password
+# AMQP properties
+rabbitmq.queueName=ldap.users
+rabbitmq.topicName=ldap
+rabbitmq.routingKey=ldap.users.#
+
+
+# LDAP
+users_ldap_directory=/home/users/ldap
